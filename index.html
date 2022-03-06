@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailPalz - The Modern Pen Pal Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Profile card start-->
+    <div class="card">
+        <div class="card-image">
+            <img src="images/img2.png"alt="">
+
+        </div>
+        <div class="profile-image">
+            <img id="image" src="images/1.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <h3 id="name">Name:</h3>
+            <p id="gender">Gender:</p>
+            <p id="age">Age:</p>
+            <p id="city">City:</p>
+            <p id="state">State:</p>
+
+
+        </div>
+        <div class="icons">
+            <a title="Send Email" id="email" href="#" class="fa-solid fa-envelope"></a>
+            <a id="heart" onclick="highlight()" title ="Send a Heart!" class="fa-solid fa-heart"></a>
+            <a id= "next" title="Next" onclick="getRandomUser()" class="fa-solid fa-angles-right"></a>
+        </div>
+    </div>
+
+    <!-- Profile card end-->
+
+    <script src="app.js"></script>
+</body>
+</html>
